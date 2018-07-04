@@ -1,7 +1,6 @@
     \begin{titlepage}
         
-        \noindent
-               	\centering
+        \centering
         
         \begin{minipage}[t]{1\textwidth}
         	\centering
@@ -29,15 +28,14 @@
         \begin{minipage}[t]{\textwidth}
         \end{minipage}
         
-	\vspace{10mm}
+		\vspace{10mm}
         
-	\begin{center}
-            {\LARGE{
-                    \setstretch{1.2}
-                    \textbf{Titolo della tesi \\ su più righe}
-                    \par
-            }}
-        \end{center}
+		\begin{center}
+			\Huge{
+				\textbf{Titolo della tesi \\ su più righe \\}
+				}
+			\Large{\textit{Sottotitolo in corsivo}}
+		\end{center}
         
         \vspace{40mm}
 
