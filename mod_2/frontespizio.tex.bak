@@ -1,33 +1,35 @@
-\documentclass[a4paper,12pt]{report}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{setspace}
-\usepackage[paper=a4paper,margin=1in]{geometry}
-
-\begin{document}
-   
     \begin{titlepage}
         
         \noindent
-        \begin{minipage}[t]{0.18\textwidth}
-            \vspace{-4.5mm}{\includegraphics[scale=0.39]{logo-bicocca.pdf}}
-        \end{minipage}
-         \begin{minipage}[t]{0.02\textwidth}
-           \end{minipage}
-        \begin{minipage}[t]{0.80\textwidth}
+               	\centering
+        
+        \begin{minipage}[t]{1\textwidth}
+        	\centering
         {
-                \setstretch{1.42}
-                {\textsc{Università degli Studi di Milano - Bicocca}} \\
-                \textbf{Scuola di Scienze} \\
-                \textbf{Dipartimento di Informatica, Sistemistica e Comunicazione} \\
+                \setstretch{1.12}
+                {\LARGE\textsc{Università degli Studi di Milano - Bicocca}} \\
+                \Large\textbf{Scuola di Scienze} \\
+                \large\textbf{Dipartimento di Informatica, Sistemistica e Comunicazione} \\
                 \textbf{Corso di laurea in Informatica} \\
                 \par
         }
         \end{minipage}
         
-	\vspace{40mm}
+        \centering
+        \begin{minipage}[t]{\textwidth}
+        	\vspace{10mm}
+        \end{minipage}
+         
+        \centering
+        \begin{minipage}[t]{1\textwidth}
+       	\centering
+        \includegraphics[scale=0.7]{img/logo-bicocca.pdf}
+        \end{minipage}
+        
+        \begin{minipage}[t]{\textwidth}
+        \end{minipage}
+        
+	\vspace{10mm}
         
 	\begin{center}
             {\LARGE{
@@ -37,15 +39,19 @@
             }}
         \end{center}
         
-        \vspace{50mm}
+        \vspace{40mm}
+
+        \begin{flushleft}
+        
 
         \noindent
         {\large \textbf{Relatore:} Prof. AAA BBB } \\
 
         \noindent
         {\large \textbf{Co-relatore:} Dott. CCC DDD}
+        \end{flushleft}
         
-        \vspace{15mm}
+        \vspace{10mm}
 
         \begin{flushright}
             {\large \textbf{Relazione della prova finale di:}} \\
@@ -53,7 +59,7 @@
             \large{Matricola ZZZZZZ} 
         \end{flushright}
         
-        \vspace{40mm}
+        \vspace{10mm}
         \begin{center}
             {\large{\bf Anno Accademico YYYY-YYYY}}
         \end{center}
@@ -61,5 +67,4 @@
         \restoregeometry
         
     \end{titlepage}
-    
-\end{document}
+   
