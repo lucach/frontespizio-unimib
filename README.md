@@ -7,10 +7,6 @@ Questo repository contiene un documento LaTeX minimale per realizzare il **front
 Il logo dell'Università è protetto da copyright. Si può utilizzare secondo quanto prescrive il [regolamento](https://www.unimib.it/sites/default/files/Allegati/regolamento.pdf), che ne autorizza l'uso per le tesi di laurea. 
 
 
-## Contenuto
-
-Sono disponibili due diversi layout rispettivamente nelle cartelle mod_1, mod_2.
-
 ## Fork 
 @lucach - [https://github.com/lucach/frontespizio-unimib](https://github.com/lucach/frontespizio-unimib)
 
