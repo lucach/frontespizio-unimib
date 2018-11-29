@@ -14,7 +14,7 @@ Il logo dell'Università è protetto da copyright. Si può utilizzare secondo qu
 
 
 
-![Image Title](main.png){width=65%}
+![Image Title](main.png)
 
 ## Fork 
 @lucach - [https://github.com/lucach/frontespizio-unimib](https://github.com/lucach/frontespizio-unimib)
