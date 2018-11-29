@@ -1,4 +1,4 @@
-# Frontespizio Tesi Università Degli Studi Milano-Bicocca 
+# Frontespizio * NON UFFICIALE * per tesi dell'Università Degli Studi Milano-Bicocca 
 
 Questo repository contiene un documento LaTeX minimale per realizzare il **frontespizio** di una **tesi** secondo le regole del Dipartimento di Informatica, Sistemistica e Comunicazione dell'Università di Milano - Bicocca.
 
