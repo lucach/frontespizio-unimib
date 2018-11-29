@@ -1,4 +1,4 @@
-# Frontespizio Tesi Bicocca - Unimib 
+# Frontespizio Tesi Università Degli Studi Milano-Bicocca 
 
 Questo repository contiene un documento LaTeX minimale per realizzare il **frontespizio** di una **tesi** secondo le regole del Dipartimento di Informatica, Sistemistica e Comunicazione dell'Università di Milano - Bicocca.
 
@@ -6,6 +6,11 @@ Questo repository contiene un documento LaTeX minimale per realizzare il **front
 
 Il logo dell'Università è protetto da copyright. Si può utilizzare secondo quanto prescrive il [regolamento](https://www.unimib.it/sites/default/files/Allegati/regolamento.pdf), che ne autorizza l'uso per le tesi di laurea. 
 
+
+## Teoria e Tecnologia della Comunicazione 
+
+* [Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://www.unimib.it/ugov/degree/4316)
+* [Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://psicologia.unimib.it/it/didattica/corsi-laurea-magistrale/teoria-e-tecnologia-della-comunicazione-f9201p-interdipartimentale-informatica)
 
 ## Fork 
 @lucach - [https://github.com/lucach/frontespizio-unimib](https://github.com/lucach/frontespizio-unimib)
