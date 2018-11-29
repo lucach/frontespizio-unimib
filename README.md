@@ -9,8 +9,8 @@ Il logo dell'Università è protetto da copyright. Si può utilizzare secondo qu
 
 ## Teoria e Tecnologia della Comunicazione 
 
-* [Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://www.unimib.it/ugov/degree/4316)
-* [Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://psicologia.unimib.it/it/didattica/corsi-laurea-magistrale/teoria-e-tecnologia-della-comunicazione-f9201p-interdipartimentale-informatica)
+* [Da UniMib: Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://www.unimib.it/ugov/degree/4316)
+* [Da Psicologia: Corso di Laurea Magistrale in Teoria e Tecnologia della Comunicazione](https://psicologia.unimib.it/it/didattica/corsi-laurea-magistrale/teoria-e-tecnologia-della-comunicazione-f9201p-interdipartimentale-informatica)
 
 ## Fork 
 @lucach - [https://github.com/lucach/frontespizio-unimib](https://github.com/lucach/frontespizio-unimib)
