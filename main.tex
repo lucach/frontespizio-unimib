@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+% \usepackage[paper=a4paper,margin=1in]{geometry}
+\usepackage{geometry}
+\geometry{
+        paper=a4paper,
+        inner=3cm, % Inner margin
+        outer=3cm, % Outer margin
+        top=2.8cm, % Top margin
+        bottom=2.5cm, % Bottom margin
+}
+\usepackage{import}
+%Italian-specific commands
+%--------------------------------------
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\scriptsize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=4pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=black,  %choose some color if you want links to stand out
+}
+
+\lstset{style=mystyle}
+
+
+\usepackage[italian]{babel}
+
+\begin{document}
+    
+
+\import{./}{title.tex}
+
+
+
+% https://www.overleaf.com/learn/latex/Management_in_a_large_project % see this!
+\import{chapters/}{chapter1.tex}
+\import{chapters/}{chapter2.tex}
+
+\end{document}
