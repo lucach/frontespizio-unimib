@@ -1,0 +1,54 @@
+% Create a new page
+\newpage
+% Set borders
+\newgeometry{top=3cm,bottom=3cm,inner=3cm,outer=3cm}
+% Remove page number
+\thispagestyle{empty}
+% Remove default indentation of paragraph
+\noindent
+% Move the content a bit on the left
+\hspace*{-1mm}
+% Include the logo
+\includegraphics[width=0.2\columnwidth]{assets/images/logo_unimib.pdf}
+% Place some space between text and image
+\hspace*{2mm}
+% Open a box in which place the header
+% use \par to space the lines
+\begin{minipage}[b][][c]{0.8\columnwidth}
+{\large\textsc{Universit\'a degli Studi di Milano Bicocca}\par}
+{\Large\textbf{Dipartimento di Informatica, Sistemistica e\\ Comunicazione}\par}
+{\Large\textbf{Corso di Laurea Magistrale in Informatica}\par}
+\end{minipage}
+% Vertical fill space
+\vfill
+\begin{center}
+{\Huge\textsc{\textbf{Titolo}}\par}
+\end{center}
+% Fill the remaining space
+\vfill
+\large
+% Place the advisor under title, on the left
+\begin{flushleft}
+\textbf{\textsc{Relatore:}}\\
+\hspace*{2em}\textit{Dott.} Nome \textsc{Cognome}
+\end{flushleft}
+% Place co-advisors under advisor
+\begin{flushleft}
+\textbf{\textsc{Co-relatore:}}\\
+\hspace*{2em}\textit{Dott.} Nome \textsc{Cognome}\\
+\end{flushleft}
+% Leave some space
+\vskip 1cm
+% Write candidate on the right
+\begin{flushright}
+\textbf{\textsc{Relazione della prova finale di:}}\\
+\hspace*{2em}Nome \textsc{Cognome}\\
+\hspace*{2em}Matricola XXXXXX
+\end{flushright}
+\vfill
+% Place year at bottom
+\begin{center}
+\textsc{\textbf{Anno Accademico 20XX-20XX}}
+\end{center}
+
+\newpage

@@ -1,15 +1,38 @@
-\chapter{Capitolo di prova}
-\section{Section}
-\subsection{Esempio di import di un'immagine}
+\chapter{Immagini}
+\section{Importare le immagini}
+    \subsection{Esempio di import di un'immagine}
+    
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.4\textwidth]{assets/images/logo_unimib.pdf}
+            \caption{esempio di immagine.}
+            \label{fig:logo_unimib}
+        \end{figure}
+        \newpage
+    \subsection{Esempio di import di due immagini side by side}
+        \begin{figure}[h]
+            \centering
+            \begin{subfigure}{0.4\textwidth}
+                \includegraphics[width=\linewidth]{assets/images/logo_unimib.pdf}
+                \caption{Figure 1}
+                \label{fig:logo_unimib2}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}{0.4\textwidth}
+                \includegraphics[width=\linewidth]{assets/images/logo_unimib.pdf}
+                \caption{Figure 2}
+                \label{fig:second_image}
+            \end{subfigure}
+            \caption{Due immagini side by side.}
+            \label{fig:both_figures}
+        \end{figure}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.4\textwidth]{assets/images/logo_unimib.pdf}
-    \caption{esempio di immagine.}
-    \label{fig:logo_unimib}
-\end{figure}
-
-
-\subsection{Esempio di import di un codice}
-
+    \subsection{Esempio di import di un codice}
 \lstinputlisting[label=samplecode,caption=sample code,language=python]{assets/codes/code.py}
+
+esempio \textbf{bold}
+
+
+esempio \textit{italic}
+
+esempio footnote\footnote{footnote: prova}
